@@ -2,31 +2,33 @@
 <html lang="en" xml:lang="en">
   <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <title>title</title>
-    <meta name="Author" content="Author" />
-    <meta name="Robots" content="index,all" />
-    <meta name="Keywords" content="Key Words" />
-    <meta name="Description" content="Descritpion" />
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    <title>Title</title>
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js" type="text/javascript" charset="utf-8"></script>
   </head>
   <body>
     <div id="wrapper">
-      <div id="header">
-        <h1>Logo text</h1>
-        <ul id="nav">
-          <li><a href="#">Nav Item 1</a></li>
-          <li><a href="#">Nav Item 2</a></li>
-        </ul>
-      </div>
-      <div id="sidebar">
+      <header>
+        <h1><a href="#">Logo text</a></h1>
+        <nav>
+          <ul>
+            <li><a href="#">Nav Item 1</a></li>
+            <li><a href="#">Nav Item 2</a></li>
+          </ul>
+        </nav>
+      </header>
+      <aside>
         sidebar
-      </div>
-      <div id="content">
+      </aside>
+      <section id="content">
         content
-      </div>
-      <div id="footer">
+      </section>
+      <footer>
         footer
-      </div>  
+      </footer>
     </div>
   </body>
 </html>
